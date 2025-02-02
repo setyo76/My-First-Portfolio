@@ -1,0 +1,19 @@
+html, body {
+    background-color: #ffffff;
+}
+
+#hero{
+    width: 100%;
+    margin: 20px auto;
+    & h1 {
+        text-align: center;
+    }
+    & p {
+        text-align: center;
+    }
+    & img {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+}
